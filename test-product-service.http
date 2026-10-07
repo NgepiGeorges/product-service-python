@@ -1,0 +1,9 @@
+# Test the product-service (REST Client extension in VS Code)
+
+### Local
+GET http://localhost:3030/products
+Accept: application/json
+
+### Azure App Service (replace with your app's default domain)
+GET https://<YOUR-PRODUCT-APP-DEFAULT-DOMAIN>/products
+Accept: application/json
